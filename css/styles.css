@@ -1,0 +1,185 @@
+
+
+
+@media screen and (max-width: 409px)
+{
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    main >div:first-of-type{
+        order: 2;
+
+    }
+
+
+}
+
+@media screen and   (min-width:410px ) and  (max-width:768px ){
+
+
+
+}
+@media screen and    (min-width:768px ) and (max-width: 1024px)
+{
+
+}
+@media screen  and (min-width: 1024px)
+{
+    #principaleTitle{
+        margin-left: 5%;
+    }
+    .c-gray{
+        color: grey;
+        font-size: 1.2rem;
+        margin-top: 30px;
+    }
+  .container{
+        display: flex;
+      flex-direction: row;
+      /*justify-content:space-around ;*/
+      justify-content:space-around ;
+    }
+    .p-relative{
+        position: relative;
+    }
+    i:not(i.middle){
+        position: absolute;
+        left: 70%;
+        top: 60%;
+    }
+    i.middle{
+        position: absolute;
+        top:60%;
+        left: 70%;
+    }
+    label{
+        display: block;
+        width: 75%;
+        padding: 10px;
+        padding-bottom: 0px;
+    }
+    input{
+        width: 75%;
+        display: block;
+        outline: none;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        margin: 0;
+    }
+    .w-50{
+        width: 50%;
+        /*margin-left: 100px;*/
+    }
+    .d-flex{
+        display: flex;
+    }
+    .d-flex div{
+        width: 70%;
+    }
+    button{
+        padding: 10px;
+        width: 20%;
+        background: orange;
+        position: relative;
+        left: 60%;
+        border: none ;
+        border-radius: 10px;
+    }
+    .bg-gray{
+        background: lightgray;
+        width: 30%;
+        border-radius: 10px;
+    }
+    .bg-gray div.article-one{
+        margin: 20px;
+    }
+    .bg-gray div.article-one figure {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    .bg-gray div.article-one figure img {
+        width: 40%;
+      /*  margin-left: -40px;*/
+        margin-left: -10%;
+        border-radius: 10px;
+    }
+    .bg-gray div.article-one figure figcaption h2 {
+        width: 100%;
+        margin:0px;
+        font-size: 1.5rem;
+        font-weight: normal;
+        margin-left: 20px;
+    }
+    .price {
+        width: 100%;
+        margin:0px;
+        font-size: 0.9rem;
+        font-weight: normal;
+        margin-left: 20px;
+        color: darkcyan;
+    }
+    .counter{
+        border: grey 1px solid;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .number{
+        padding: 5px;
+        width: 10px;
+        text-align: center;
+        vertical-align: center;
+    }
+    .minus,.plus{
+        padding: 5px;
+        width: 10px;
+        text-align: center;
+        border-radius: 2px;
+        color: white;
+        vertical-align: center;
+        background: darkgrey;
+    }
+    .finalPrice{
+        padding: 20px;
+        position: relative;
+        bottom: -160px;
+
+    }
+.finalPrice div:first-child{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 10px;
+}
+    .finalPrice div:last-child{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10px;
+        padding: 10px;
+    }
+    .checkbox input{
+        width: 10%;
+        position: relative;
+        left: -4%;
+    }
+    .checkbox{
+        padding: 10px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .checkbox label{
+        position: relative;
+        left: -6%;
+        top:-5px;
+    }
+
+}

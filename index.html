@@ -2,100 +2,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/32aee59745.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/styles.css">
     <title>checkout page</title>
 </head>
 <body>
     <section>
         <main>
-            <h1>Checkout</h1>
-            <div>
+            <h1 id="principaleTitle">Checkout</h1>
+            <div class="container">
+            <div class="w-50">
                 <div>
-                    <h2>Contact information</h2>
-                    <div>
+                    <h2 class="c-gray">Contact information</h2>
+                    <div class="p-relative">
                         <label>Email</label>
                         <input  type="text"placeholder="Entrez votre mail">
+                        <i class="fa-solid fa-envelope"></i>
                     </div>
-                    <div>
+                    <div class="p-relative">
                         <label>phone</label>
                         <input type="text" placeholder="Entrez votre telephone">
+                        <i class="fa-solid fa-phone"></i>
                     </div>
                 </div>
                 <div>
-                    <h2>Shipping address </h2>
-                    <div>
+                    <h2 class="c-gray">Shipping address </h2>
+                    <div class="p-relative">
                         <label>fullName</label>
                         <input type="text" placeholder="Entrez votre nom et prénom">
+                        <i class="fa-solid fa-user"></i>
                     </div>
-                    <div>
+                    <div class="p-relative">
                         <label>Adresse</label>
                         <input type="text" placeholder="Entrez votre adresse">
+                        <i class="fa-solid fa-house-user"></i>
                     </div>
-                    <div>
-                        <label for="ice-cream-choice">Contry:</label>
-                        <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
+                    <div class="d-flex" style="width: 86%">
+                        <div class="p-relative">
+                            <label for="ice-cream-choice">Contry:</label>
+                            <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
 
-                        <datalist id="ice-cream-flavors">
-                            <option value="Belgique ">
-                            <option value="france">
-                        </datalist>
+                            <datalist id="ice-cream-flavors">
+                                <option value="Belgique ">
+                                <option value="france">
+                            </datalist>
+                            <i class="fa-solid fa-globe middle"></i>
+                        </div>
+                        <div>
+                            <label>Postal</label>
+                            <input type="text" placeholder="Entrez votre code postal">
+                        </div>
+                    </div>
 
-                    </div>
-                    <div>
-                       <label>Postal</label>
-                        <input type="text" placeholder="Entrez votre code postal">
-                    </div>
-                    <div>
-                       <label> save this information</label>
-                        <input type="checkbox" >
+                    <div class='checkbox'>
 
+                        <input type="checkbox"  >
+                        <label> save this information</label>
                     </div>
+                    <button>Continuer</button>
                 </div>
-                <button>Continuer</button>
+
             </div>
-            <div>
-                <div>
+            <div  class="w-50 bg-gray">
+                <div class="article-one">
                     <figure>
                         <img src="assets/pictures/photo1.png">
                         <figcaption>
                             <h2>vintage bag</h2>
-                            <div>$54.99</div>
-                           <div>
-                               <div>+</div>
-                               <div>1</div>
+                            <div class="price">$54.99</div>
+                           <div class="counter">
+                               <div class="plus">+</div>
+                               <div class="number">1</div>
 
-                               <div>-</div>
+                               <div class="minus">-</div>
                            </div>
 
                         </figcaption>
                     </figure>
                 </div>
 
-                <div>
+                <div class="article-one">
                     <figure>
                         <img src="assets/pictures/photo2.png">
                         <figcaption>
-                            <h2>levi shoe</h2>
-                            <div>$74.99</div>
-                            <div>
-                                <div>+</div>
-                                <div>1</div>
+                            <h2>vintage bag</h2>
+                            <div class="price">$54.99</div>
+                            <div class="counter">
+                                <div class="plus">+</div>
+                                <div class="number">1</div>
 
-                                <div>-</div>
+                                <div class="minus">-</div>
                             </div>
 
                         </figcaption>
                     </figure>
                 </div>
-                <div></div>
-                <div>
-                    <span>shipping</span>
-                    <span>$19</span>
+                <div class="finalPrice">
+                    <div>
+                        <span>shipping</span>
+                        <span>$19</span>
+                    </div>
+                    <div>
+                        <span>Total</span>
+                        <span>$149.99</span>
+                    </div>
                 </div>
-                <div>
-                    <span>Total</span>
-                    <span>$149.99</span>
-                </div>
+
+            </div>
             </div>
         </main>
     </section>
