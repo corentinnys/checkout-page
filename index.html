@@ -6,6 +6,98 @@
     <title>checkout page</title>
 </head>
 <body>
+    <section>
+        <main>
+            <h1>Checkout</h1>
+            <div>
+                <div>
+                    <h2>Contact information</h2>
+                    <div>
+                        <label>Email</label>
+                        <input  type="text"placeholder="Entrez votre mail">
+                    </div>
+                    <div>
+                        <label>phone</label>
+                        <input type="text" placeholder="Entrez votre telephone">
+                    </div>
+                </div>
+                <div>
+                    <h2>Shipping address </h2>
+                    <div>
+                        <label>fullName</label>
+                        <input type="text" placeholder="Entrez votre nom et prénom">
+                    </div>
+                    <div>
+                        <label>Adresse</label>
+                        <input type="text" placeholder="Entrez votre adresse">
+                    </div>
+                    <div>
+                        <label for="ice-cream-choice">Contry:</label>
+                        <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
 
+                        <datalist id="ice-cream-flavors">
+                            <option value="Belgique ">
+                            <option value="france">
+                        </datalist>
+
+                    </div>
+                    <div>
+                       <label>Postal</label>
+                        <input type="text" placeholder="Entrez votre code postal">
+                    </div>
+                    <div>
+                       <label> save this information</label>
+                        <input type="checkbox" >
+
+                    </div>
+                </div>
+                <button>Continuer</button>
+            </div>
+            <div>
+                <div>
+                    <figure>
+                        <img src="assets/pictures/photo1.png">
+                        <figcaption>
+                            <h2>vintage bag</h2>
+                            <div>$54.99</div>
+                           <div>
+                               <div>+</div>
+                               <div>1</div>
+
+                               <div>-</div>
+                           </div>
+
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div>
+                    <figure>
+                        <img src="assets/pictures/photo2.png">
+                        <figcaption>
+                            <h2>levi shoe</h2>
+                            <div>$74.99</div>
+                            <div>
+                                <div>+</div>
+                                <div>1</div>
+
+                                <div>-</div>
+                            </div>
+
+                        </figcaption>
+                    </figure>
+                </div>
+                <div></div>
+                <div>
+                    <span>shipping</span>
+                    <span>$19</span>
+                </div>
+                <div>
+                    <span>Total</span>
+                    <span>$149.99</span>
+                </div>
+            </div>
+        </main>
+    </section>
 </body>
 </html>
