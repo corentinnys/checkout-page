@@ -1,7 +1,147 @@
 
+@media screen and (max-width: 460px){
 
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .bg-gray {
+        background: lightgray;
+        border-radius: 10px;
+    }
+    .bg-gray div.article-one figure {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 20px;
+        margin: 0;
+    }
+    .bg-gray div.article-one figure figcaption {
+        margin: 10px;
+    }
+    .bg-gray div.article-one figure img {
+        width: 30%;
+        margin-left: 10%;
+        border-radius: 10px;
+    }
+    .price {
+        width: 100%;
+        margin:0px;
+        font-size: 0.9rem;
+        font-weight: normal;
+        margin-left: 20px;
+        color: darkcyan;
+    }
+    .counter{
+        border: grey 1px solid;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .number{
+        padding: 5px;
+        width: 10px;
+        text-align: center;
+        vertical-align: center;
+    }
+    .minus,.plus{
+        padding: 5px;
+        width: 10px;
+        text-align: center;
+        border-radius: 2px;
+        color: white;
+        vertical-align: center;
+        background: darkgrey;
+    }
+    .finalPrice{
+        padding: 20px;
+        position: relative;
 
-@media screen and   (min-width:450px ) and  (max-width:768px ){
+    }
+    .finalPrice div:first-child{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        padding: 10px;
+    }
+    .finalPrice div:last-child{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10px;
+        padding: 10px;
+    }
+    .p-relative{
+        position: relative;
+    }
+    i{
+        position: absolute;
+        left: 85%;
+        top: 50%;
+    }
+   /* i.middle{
+        position: absolute;
+        top:60%;
+        left: 70%;
+    }*/
+    label{
+        display: block;
+        width: 100%;
+        width: 100%;
+        padding-bottom: 0px;
+    }
+    input{
+         width: 90%;
+         display: block;
+         outline: none;
+         padding: 10px;
+         border-radius: 5px;
+         border: 1px solid black;
+         /*margin:auto;*/
+         /*margin: 0;*/
+         font-size: 1.2rem;
+     }
+
+    button{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 1.5rem;
+        width: 25%;
+        background: orange;
+        color: white;
+        position: relative;
+        left: 40%;
+        border: none ;
+        border-radius: 10px;
+    }
+    .checkbox{
+        padding: 10px;
+        display: flex;
+        justify-content: flex-start;
+
+    }
+    .checkbox label{
+
+        position: relative;
+        left: -4%;
+        top:5px;
+        font-size: 1.2em;
+    }
+    .checkbox input{
+        margin-left: 20px;
+        display: block;
+        width: 10%;
+        position: relative;
+        left: -7%;
+        height: 30px;
+    }
+}
+
+@media screen and   (min-width:460px ) and  (max-width:768px ){
     .container{
         display: flex;
         flex-direction: column-reverse;
