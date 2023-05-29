@@ -597,8 +597,8 @@
     .finalPrice{
         padding: 20px;
         position: relative;
-        bottom: -160px;
-
+        bottom:-15%;
+       /* bottom: -160px;*/
     }
 .finalPrice div:first-child{
     display: flex;
